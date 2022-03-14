@@ -12,7 +12,6 @@ public class CalculatorTest {
     @Test
     public void substractTest() {
         Calculator c = new Calculator();
-
         Assertions.assertEquals(0, c.subtract(3,2));
     }    @Test
     public void multTest() {

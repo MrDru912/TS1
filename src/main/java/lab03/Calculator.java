@@ -16,5 +16,4 @@ public class Calculator {
         // TODO: implementujte tuto metodu
         return  a/b;
     }
-
 }
