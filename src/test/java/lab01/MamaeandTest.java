@@ -6,7 +6,8 @@ import org.junit.jupiter.api.Test;
 public class MamaeandTest {
 
     @Test
-    public void factorialTest() {
-        Assertions.assertEquals(6, Mamaeand.factorialRecursive(3));
+    public void factorialTest(){
+
+        Assertions.assertEquals(1, Mamaeand.factorialRecursive(1));
     }
 }
