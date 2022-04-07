@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0617352f-cb43-4214-8751-5221512e26e7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/lab01/Mamaeand.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/lab04/CalculatorTests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/lab01/MamaeandTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/lab03/Calculator.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/lab03/CalculatorTest.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25sgxtdkVa6EjuEZ6k5oxMBKYbV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw8" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="JUnit.MockMailHelperTest.checkMailCorrectTo">
+    <configuration name="MamaeandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TS1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab01" />
+      <option name="MAIN_CLASS_NAME" value="lab01.MamaeandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockMailHelperTest.checkMailCorrectTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TS1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab05" />
+      <option name="MAIN_CLASS_NAME" value="lab05.MockMailHelperTest" />
+      <option name="METHOD_NAME" value="checkMailCorrectTo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockMailHelperTest.mockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TS1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab05" />
+      <option name="MAIN_CLASS_NAME" value="lab05.MockMailHelperTest" />
+      <option name="METHOD_NAME" value="mockTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockMailHelperTest.negativeVerifySendMailVerifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TS1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab05" />
+      <option name="MAIN_CLASS_NAME" value="lab05.MockMailHelperTest" />
+      <option name="METHOD_NAME" value="negativeVerifySendMailVerifyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockMailHelperTest.positiveVerifySendMailOnceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TS1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab05" />
+      <option name="MAIN_CLASS_NAME" value="lab05.MockMailHelperTest" />
+      <option name="METHOD_NAME" value="positiveVerifySendMailOnceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MockMailHelperTest.checkMailCorrectTo" />
+        <item itemvalue="JUnit.MockMailHelperTest.mockTest" />
+        <item itemvalue="JUnit.MockMailHelperTest.positiveVerifySendMailOnceTest" />
+        <item itemvalue="JUnit.MockMailHelperTest.negativeVerifySendMailVerifyTest" />
+        <item itemvalue="JUnit.MamaeandTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0617352f-cb43-4214-8751-5221512e26e7" name="Changes" comment="" />
+      <created>1646321460763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646321460763</updated>
+    </task>
+    <servers />
+  </component>
+</project>
