@@ -16,6 +16,10 @@ public class EShopController {
     private static ArrayList<ShoppingCart> carts;
     private static ArrayList<Order> orders;
 
+    public static void setStorage(Storage storage) {
+        EShopController.storage = storage;
+    }
+
     public EShopController() {
     }
 
@@ -23,7 +27,7 @@ public class EShopController {
 
     public static void purchaseShoppingCart(ShoppingCart cart, String customerName, String customerAddress) throws NoItemInStorage {
         if (cart.getCartItems().isEmpty()) {
-            System.out.println("Error: shopping cart is empty");
+            System.out.print("Error: shopping cart is empty\n");
         }
         Order order = new Order(cart, customerName, customerAddress);
         storage.processOrder(order);
@@ -99,9 +103,27 @@ public static void main(String[] args) throws NoItemInStorage {
         purchaseShoppingCart(newEmptyCart, "Jarmila Novakova", "Spojovaci 23, Praha 3");
         
         
-        
     }
 
+    public static void setArchive(PurchasesArchive archive) {
+        EShopController.archive = archive;
+    }
+
+    public static Storage getStorage() {
+        return storage;
+    }
+
+    public static PurchasesArchive getArchive() {
+        return archive;
+    }
+
+    public static ArrayList<ShoppingCart> getCarts() {
+        return carts;
+    }
+
+    public static ArrayList<Order> getOrders() {
+        return orders;
+    }
 
 
 }

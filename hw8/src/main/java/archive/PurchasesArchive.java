@@ -27,8 +27,8 @@ public class PurchasesArchive {
     
     public void printItemPurchaseStatistics() {
         Collection<ItemPurchaseArchiveEntry> itemEntries = itemPurchaseArchive.values();
-        System.out.println("ITEM PURCHASE STATISTICS:");
-        for(ItemPurchaseArchiveEntry e : itemEntries) System.out.println(e.toString());
+        System.out.print("ITEM PURCHASE STATISTICS:\n");
+        for(ItemPurchaseArchiveEntry e : itemEntries) System.out.print(e.toString()+"\n");
     }
     
     public int getHowManyTimesHasBeenItemSold(Item item) {
@@ -37,10 +37,7 @@ public class PurchasesArchive {
         }
         return 0;
     }
-    
 
-    
-    
     public void putOrderToPurchasesArchive(Order order) {
         orderArchive.add(order);
         ArrayList<Item> orderItems = order.getItems();

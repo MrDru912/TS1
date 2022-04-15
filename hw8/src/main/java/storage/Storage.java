@@ -27,9 +27,9 @@ public class Storage {
      */
     public void printListOfStoredItems() {
         Collection<ItemStock> entries = getStockEntries();
-        System.out.println("STORAGE IS CURRENTLY CONTAINING:");
+        System.out.print("STORAGE IS CURRENTLY CONTAINING:\n");
         for (ItemStock e : entries) {
-            System.out.println(e.toString());
+            System.out.print(e.toString()+"\n");
         }
     }
 

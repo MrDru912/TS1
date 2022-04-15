@@ -14,9 +14,7 @@ public class MockMailHelperTest {
     @Test
     public void negativeVerifySendMailVerifyTest(){
         //mailHelper.sendMail(Mockito.anyInt());
-
         Mockito.verify(mockDBManager, times(0)).findMail(Mockito.anyInt());
-
     }
     @Test
     public void positiveVerifySendMailOnceTest() {

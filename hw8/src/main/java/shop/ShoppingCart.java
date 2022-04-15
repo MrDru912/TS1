@@ -31,7 +31,7 @@ public class ShoppingCart {
 
     public void addItem(Item temp_item) {
         items.add(temp_item);
-        System.out.println("Item with ID " + temp_item.getID() + " added to the shopping cart.");
+        System.out.print("Item with ID " + temp_item.getID() + " added to the shopping cart.\n");
     }
 
     
