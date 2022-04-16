@@ -26,7 +26,6 @@ public class PurchasesArchiveTest {
     final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     final PrintStream originalOut = System.out;
 
-    //    @Mock
     ArrayList<Order> orderArchive;
 
     @BeforeEach
@@ -122,6 +121,15 @@ public class PurchasesArchiveTest {
         ArrayList<Order> orderArchive = Mockito.mock(ArrayList.class);
         orderArchive.add(order);
         verify(orderArchive).add(Mockito.any());
+    }
+
+    @Test
+    public void mockRemoveOrderArchiveTest() {
+        ArrayList<Item> items = new ArrayList<>();
+        Order order = new Order(new ShoppingCart(items), "Andrei", "Prazska 11");
+        ArrayList<Order> orderArchive = Mockito.mock(ArrayList.class);
+        orderArchive.remove(order);
+        verify(orderArchive).remove(Mockito.any());
     }
 
     @Test

@@ -8,6 +8,7 @@ import shop.StandardItem;
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class OrderTest {
 
@@ -27,7 +28,6 @@ public class OrderTest {
         customerAddress = "Prazska 11";
         state = 0;
         order = new Order(new ShoppingCart(items),"Michal Jordan","Prazska 11");
-        order2 = new Order(new ShoppingCart(null),null,null);
     }
 
     @Test
@@ -50,17 +50,17 @@ public class OrderTest {
 
     @Test
     public void constructorItemsNullParamTest(){
-        assertEquals(order2.getItems(), null);
+        assertNotNull(order.getItems());
     }
 
     @Test
     public void constructorCustomerNameNullParamTest(){
-        assertEquals(order2.getCustomerName(), null);
+        assertNotNull(order.getCustomerName());
 
     }
     @Test
     public void constructorCustomerAddressNullParamTest(){
-        assertEquals(order2.getCustomerAddress(), null);
+        assertNotNull(order.getCustomerAddress());
     }
 
 }
