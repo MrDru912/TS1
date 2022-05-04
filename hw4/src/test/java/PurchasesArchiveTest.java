@@ -8,7 +8,6 @@ import shop.Item;
 import shop.Order;
 import shop.ShoppingCart;
 import shop.StandardItem;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;

@@ -75,7 +75,6 @@ public class StandardItemTest {
         StandardItem standardItem = new StandardItem(id,name, price, category, loyaltyPoints);
         StandardItem standardItem2 = new StandardItem(id2,name2, price2, category2, loyaltyPoints2);
         Assertions.assertEquals(standardItem.equals(standardItem2),res);
-
     }
 
 }
