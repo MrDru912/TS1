@@ -13,7 +13,7 @@ import java.time.Duration;
 public class FinalLogOut {
     private final WebDriver driver;
     //    @FindBy(how = How.XPATH, using = "//div[@class='singlebutton quizstartbuttondiv']//ancestor::button")
-    @FindBy(how = How.XPATH,using = "//button[@class='btn btn-primary']")
+    @FindBy(how = How.XPATH,using = "//button[text()='Continue']")
     private WebElement logOutButton;
 
     public FinalLogOut(WebDriver driver) {
@@ -21,7 +21,7 @@ public class FinalLogOut {
         PageFactory.initElements(this.driver, this);
     }
     public void logOutForSure() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(logOutButton));
         logOutButton.click();
     }

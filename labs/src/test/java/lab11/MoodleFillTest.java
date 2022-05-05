@@ -13,7 +13,6 @@ import java.time.Duration;
 
 public class MoodleFillTest {
     private final WebDriver driver;
-    //    @FindBy(how = How.XPATH, using = "//div[@class='singlebutton quizstartbuttondiv']//ancestor::button")
     @FindBy(how = How.XPATH,using = "//textarea[@class='qtype_essay_plain qtype_essay_response form-control']")
     private WebElement blank1;
 
@@ -23,9 +22,6 @@ public class MoodleFillTest {
     private WebElement selector1;
     @FindBy(how = How.XPATH,using = "//p[text()='Mezi státy evropské unie patří ']//ancestor::select[@class='select custom-select custom-select place1']")
     private WebElement selector2;
-
-    @FindBy(how = How.XPATH,using = "//input[@name='next']")
-    private WebElement button;
 
     public MoodleFillTest(WebDriver driver) {
         this.driver = driver;
@@ -41,8 +37,6 @@ public class MoodleFillTest {
         select.selectByVisibleText("Oberon");
         Select select2 = new Select(selector2);
         select2.selectByVisibleText("Rumunsko");
-        button.click();
-//        Utils.jsClick(attemptQuizButton,driver);
         return new MoodleLogOut(driver);
     }
 }

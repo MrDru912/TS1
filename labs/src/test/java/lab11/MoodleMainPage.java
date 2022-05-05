@@ -24,8 +24,8 @@ public class MoodleMainPage {
 
     public MoodleLogedPage loginIntoMoodle(){
         Utils.fillInUsernameAndPassword(usernameForm,passwordForm,driver);
-        usernameForm.sendKeys("mamaeand");
-        passwordForm.sendKeys("Kiznaiver08092001");
+        usernameForm.sendKeys("");
+        passwordForm.sendKeys("");
         Utils.jsClick(loginForm,driver);
         return new MoodleLogedPage(driver);
     }
